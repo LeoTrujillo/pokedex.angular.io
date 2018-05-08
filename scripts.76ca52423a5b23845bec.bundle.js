@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){var t=Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"),0);t.length>0&&t.forEach(function(t){t.addEventListener("click",function(){var e=document.getElementById(t.dataset.target);t.classList.toggle("is-active"),e.classList.toggle("is-active")})})});
